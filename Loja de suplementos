@@ -1,0 +1,130 @@
+HTML:
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>PowerFit Suplementos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+  <header>
+    <h1>PowerFit Suplementos</h1>
+    <p>Transforme seu corpo com os melhores suplementos do mercado</p>
+    <button>Comprar agora</button>
+  </header>
+
+  
+  <section class="imagem">
+    <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e" alt="Suplementos">
+  </section>
+
+  
+  <section class="sobre">
+    <h2>Sobre nós</h2>
+    <p>
+      Na PowerFit, oferecemos suplementos de alta qualidade para ajudar você a alcançar seus objetivos,
+      seja ganhar massa muscular, perder peso ou melhorar sua performance.
+    </p>
+  </section>
+
+ 
+  <section class="beneficios">
+    <h2>Por que escolher a PowerFit?</h2>
+    <ul>
+      <li>✔ Produtos 100% originais</li>
+      <li>✔ Entrega rápida para todo o Brasil</li>
+      <li>✔ Preços acessíveis</li>
+      <li>✔ Suporte especializado</li>
+    </ul>
+  </section>
+
+  
+  <footer>
+    <p>© 2026 PowerFit Suplementos</p>
+  </footer>
+
+</body>
+</html>
+
+CSS:
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+
+header {
+  background-color: #111;
+  color: white;
+  padding: 40px 20px;
+}
+
+header h1 {
+  font-size: 40px;
+}
+
+header p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+button {
+  background-color: #00c853;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #009624;
+}
+
+
+.imagem img {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+
+section {
+  padding: 20px;
+}
+
+.sobre {
+  background-color: white;
+}
+
+.beneficios {
+  background-color: #e0f2f1;
+}
+
+.beneficios ul {
+  list-style: none;
+  padding: 0;
+}
+
+.beneficios li {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+
+footer {
+  background-color: #111;
+  color: white;
+  padding: 15px;
+}
+
+
